@@ -1,11 +1,12 @@
 layout: sidebar
-style: light
+style: dark
 
 plugins:
   - jekyll-octicons
   - jekyll-github-metadata
   - jemoji
 
+repository: MarcoBuster/personal-website
 permalink: /:year/:month/:day/:title/
 
 defaults:
@@ -17,18 +18,25 @@ defaults:
       layout: "post"
 
 projects:
-  sort_by: pushed
+  sort_by: stars
   # sort_by options:
   #   - pushed
   #   - stars
-  limit: 9
-  exclude:
-    archived: false
-    forks: true
-    projects:
-    # - repo-name
+  include:
+    - python-botogram/botogram
+    - tdlight-team/tdlight-telegram-bot-api
+    - MarcoBuster/OrarioTreniBot
+    - MarcoBuster/ClasseVivaAPI
+    - MarcoBuster/AoC
+    - MarcoBuster/university
+    - MarcoBuster/unihome
+    - MarcoBuster/immuni-tek-sender
+    - MarcoBuster/data-clustering-contest
 
-# social_media:
+social_media:
+  telegram: MarcoBuster
+  twitter: realMarcoBuster
+  stackoverflow: 6083563
   # behance: your_username
   # dribbble: your_username
   # facebook: your_username
@@ -38,9 +46,6 @@ projects:
   # linkedin: your_username
   # mastodon: your_username
   # medium: your_username
-  # stackoverflow: your_user_id
-  # telegram: your_username
-  # twitter: your_username
   # unsplash: your_username
   # vk: your_username
   # website: http://your_website_url
