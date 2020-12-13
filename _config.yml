@@ -18,10 +18,6 @@ defaults:
       layout: "post"
 
 projects:
-  sort_by: stars
-  # sort_by options:
-  #   - pushed
-  #   - stars
   include:
     - python-botogram/botogram
     - tdlight-team/tdlight-telegram-bot-api
@@ -35,6 +31,7 @@ projects:
 
 social_media:
   telegram: MarcoBuster
+  youtube: UCE27OjiqihFuKnC6GZnndiQ
   twitter: realMarcoBuster
   stackoverflow: 6083563
   # behance: your_username
@@ -49,15 +46,28 @@ social_media:
   # unsplash: your_username
   # vk: your_username
   # website: http://your_website_url
-  # youtube: your_username
 
 topics:
-  - name: CSS
-    web_url: https://github.com/topics/css
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/css/css.png
+  - name: Electronic Frontier Foundation
+    web_url: https://eff.org
+    image_url: /assets/img/home/eff.jpg
 
-  - name: Web design
+  - name: Free Software Foundation
+    web_url: https://fsf.org
+    image_url: /assets/img/home/fsf.jpg
 
-  - name: Sass
-    web_url: https://github.com/topics/sass
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/sass/sass.png
+  - name: Telegram Messenger
+    web_url: https://telegram.org
+    image_url: /assets/img/home/telegram.jpg
+
+  - name: Python Software Foundation
+    web_url: https://www.python.org/psf/
+    image_url: /assets/img/home/python.jpg
+
+  - name: Golang
+    web_url: https://golang.org/
+    image_url: /assets/img/home/golang.jpg
+
+  - name: Monero cryptocurrency
+    web_url: https://getmonero.org
+    image_url: /assets/img/home/monero.jpg
